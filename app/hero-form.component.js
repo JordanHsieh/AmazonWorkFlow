@@ -39,7 +39,9 @@
                     this.model.hrsNeededToFinish = (hrsNeededToFinish);
                     
                     if(hrsNeededToFinish < hoursLeft) {
-                       balanced = true;
+                        console.log("wth");
+                        balanced = true;
+                        break;
                     }
                     count++;
                     numStow++;
